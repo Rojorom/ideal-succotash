@@ -1,0 +1,83 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Arial sans-serif;
+    background: #fff;
+}
+
+.miembros{
+    text-align: center;
+}
+
+    /* .contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 52px 0;
+    }
+   */  .sobre-nosotros{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    }
+    .cards{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    .card{
+    width: 30%;
+    height: 250px;background: rgba(243, 243, 125, 0.829);
+
+    box-shadow: 0px 0px 4px 0  rgba(52,73,94,  0.849);
+    padding: 20px;
+    margin:20px 0;
+    text-align: center;
+    }
+    .cards img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 100%;
+    }
+
+@media all and (max-width: 360px){
+    .titulo{
+        flex-direction: column;
+    }
+    }
+
+
+    @media all and (max-width: 620px){
+        .cards{
+            flex-direction: column;
+             width: 600px;
+        }
+        
+            
+        }
+    
+        @media all and (max-width:610px){
+            header .titulo{
+                font-size: 45px;
+                -webkit-text-stroke: 0px rgb(255, 255, 255);
+            }
+            .cards{
+                flex-wrap: wrap;
+                margin-left: 28%;
+                justify-content: space-around;
+            }
+            .miembros{
+                text-align: center;
+            }
+           
+                
+            }
+        
