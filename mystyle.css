@@ -227,7 +227,7 @@ header p{
             height: 100%;
             padding: 30px;
             opacity: 0.9;
-            transform: translateX(-230px);
+            transform: translateX(-330px);
             transition: transform .3s ease-in-out; 
              }
         .titulo{
