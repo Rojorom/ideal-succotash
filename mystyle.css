@@ -6,7 +6,7 @@
     /* centrar contenido  */
    
 body{   
-    background-color: rgba(119, 118, 118, 0.788);
+    background-color: rgba(31, 0, 0, 0.788);
     color: #ffffff;
     font-size: 16px; 
   font-family: "Oswald", sans-serif;
@@ -196,7 +196,7 @@ header p{
         justify-content: center;
     }
 
-    @media (max-width:734px){
+    @media (max-width:800px){
         .articulos{
             grid-template-columns: repeat(2, 1fr);
         }
@@ -210,6 +210,10 @@ header p{
             padding: 30px;
             opacity: 0.9;
             transform: translateX(-20px);
+            transition: transform .3s ease-in-out;     
+        }
+        .nav-menu.show{
+            transform: translateX(-300px);
         }
         .menuBtn{
             display: block;
@@ -227,14 +231,14 @@ header p{
             height: 100%;
             padding: 30px;
             opacity: 0.9;
-            transform: translateX(-230px);
+            transform: translateX(-30px);
             transition: transform .3s ease-in-out; 
              }
         .titulo{
             font-size: 2em;
         }
         .nav-menu.show{
-            transform: translateX(-20px);
+            transform: translateX(-300px);
             
         } 
         .articulos{
