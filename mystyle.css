@@ -197,6 +197,12 @@ header p{
     }
         .fb-comments{
             background:#fff;
+            font-color:#fff;
+            
+      }
+      .commentarios{
+            background:#fff;
+            font-color:#fff;
 }
 
     @media (max-width:734px){
