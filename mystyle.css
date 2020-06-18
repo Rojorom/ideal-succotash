@@ -195,6 +195,9 @@ header p{
         display: flex;
         justify-content: center;
     }
+        .fb-comments{
+            background:#fff;
+}
 
     @media (max-width:734px){
         .articulos{
